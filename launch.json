@@ -1,0 +1,10 @@
+{
+  "kind": "evm_contracts",
+  "contracts": [
+    {
+      "contract": "CounterGame",
+      "constructorArgs": []
+    }
+  ],
+  "notes": "CounterGame starts a shared counter at zero. Anyone may repeatedly increment or decrement it by 100; decrementing at zero reverts. The caller whose increment reaches 1000 is permanently declared the winner, and both moves then revert. Each deployment is one game with no reset, administrators, payments, or prizes. No constructor arguments or initialization calls are required."
+}
